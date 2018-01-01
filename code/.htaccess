@@ -1,0 +1,13 @@
+RewriteEngine On 
+
+					RewriteBase /code/ 
+
+					RewriteCond %{REQUEST_URI} ^system.* 
+
+					RewriteRule ^(.*)$ /index.php/$1 [L] 
+
+					RewriteCond %{REQUEST_FILENAME} !-f 
+
+					RewriteCond %{REQUEST_FILENAME} !-d 
+
+					RewriteRule ^(.*)$ //code/index.php/$1 [L]
