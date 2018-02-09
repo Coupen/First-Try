@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Shoppy an Admin Panel Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title><?php echo $title; ?></title>
 <?php
 	include_once("head.php");
 ?>
@@ -39,7 +39,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- /script-for sticky-nav -->
 		<div class="inner-block">
 			<?php
-				include_once('body.php');
+				include_once($page_name.'.php');
 			?>
 		</div>
 		<?php
@@ -80,10 +80,10 @@ $(".sidebar-icon").click(function() {
             });
 </script>
 <!--scrolling js-->
-		<script src="<?php echo base_url(); ?>template/admin/web/js/jquery.nicescroll.js"></script>
-		<script src="<?php echo base_url(); ?>template/admin/web/js/scripts.js"></script>
+		<script src="<?php echo base_url(); ?>template/admin/js/jquery.nicescroll.js"></script>
+		<script src="<?php echo base_url(); ?>template/admin/js/scripts.js"></script>
 		<!--//scrolling js-->
-<script src="<?php echo base_url(); ?>template/admin/web/js/bootstrap.js"> </script>
+<script src="<?php echo base_url(); ?>template/admin/js/bootstrap.js"> </script>
 <!-- mother grid end here-->
 </body>
 </html>                     

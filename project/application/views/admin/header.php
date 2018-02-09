@@ -6,12 +6,12 @@
 								  </a> 								
 							</div>
 							<!--search-box-->
-								<div class="search-box">
+								<!--<div class="search-box">
 									<form>
 										<input type="text" placeholder="Search..." required="">	
 										<input type="submit" value="">					
 									</form>
-								</div><!--//end-search-box-->
+								</div>--><!--//end-search-box-->
 							<div class="clearfix"> </div>
 						 </div>
 						 <div class="header-right">
@@ -155,7 +155,7 @@
 									<li class="dropdown profile_details_drop">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 											<div class="profile_img">	
-												<span class="prfil-img"><img src="<?php echo base_url(); ?>template/admin/web/images/p1.png" alt=""> </span> 
+												<span class="prfil-img"><img src="<?php echo base_url(); ?>template/admin/images/p1.png" alt=""> </span> 
 												<div class="user-name">
 													<p>Malorum</p>
 													<span>Administrator</span>

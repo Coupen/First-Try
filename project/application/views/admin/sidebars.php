@@ -24,12 +24,11 @@
 		            <li id="menu-arquivos" ><a href="icons.html">Icons</a></li>
 		          </ul>
 		        </li>
-		          <li><a href="maps.html"><i class="fa fa-globe"></i><span>Location</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		          <li><a href="maps.html"><i class="fa fa-globe"></i><span>Country</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		          <ul id="menu-comunicacao-sub" >
-		            <li id="menu-mensagens" style="width: 120px" ><a href=#>Country</a>		              
+		            <li id="menu-mensagens" style="width: 120px" ><a href=#>State</a>		              
 		            </li>
-		            <li id="menu-arquivos" ><a href=#>State</a></li>
-		            <li id="menu-arquivos" ><a href=$>City</a></li>
+		            <li id="menu-arquivos" ><a href=#>City</a></li>
 		          </ul>
 		       </li>
 		        <li id="menu-academico" ><a href="#"><i class="fa fa-key"></i><span>Subscribe</span><span class="fa fa-angle-right" style="float: right"></span></a>

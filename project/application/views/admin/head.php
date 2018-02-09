@@ -4,6 +4,9 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<link rel="stylesheet" href="<?php echo base_url(); ?>template/admin/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="<?php echo base_url(); ?>template/admin/js/bootstrap.min.js"></script>
 <link href="<?php echo base_url(); ?>template/admin/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- Custom Theme files -->
 <link href="<?php echo base_url(); ?>template/admin/css/style.css" rel="stylesheet" type="text/css" media="all"/>

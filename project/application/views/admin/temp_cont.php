@@ -1,7 +1,6 @@
-<!--inner block start here-->
 <div class="inner-block">
 <!--market updates updates-->
-	<div class="market-updates">
+	 <div class="market-updates">
 			<div class="col-md-4 market-update-gd">
 				<div class="market-update-block clr-block-1">
 					<div class="col-md-8 market-update-left">
@@ -42,8 +41,7 @@
 				</div>
 			</div>
 		   <div class="clearfix"> </div>
-</div>
-	 
+		</div>
 <!--market updates end here-->
 <!--mainpage chit-chating-->
 <div class="chit-chat-layer1">
@@ -276,7 +274,7 @@
 					<div class='bar_group__bar thin' label='Amount' show_values='true' tooltip='true' value='550'></div>
 					<div class='bar_group__bar thin' label='Farming' show_values='true' tooltip='true' value='456'></div>
 		    </div>
-				<script src="<?php echo base_url(); ?>template/admin/web/js/bars.js"></script>
+				<script src="js/bars.js"></script>
 
 	      <!--//Progress bars-->
 	      </div>
@@ -463,5 +461,3 @@
 </div>
 <!--climate end here-->
 </div>
-<!--inner block end here-->
-<!--copy rights start here-->
